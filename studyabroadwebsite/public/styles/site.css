@@ -1,0 +1,228 @@
+header {
+  color: white;
+  text-shadow: 2px 2px 2px gray;
+  background-image: url("../images/studyaimg.jpg");
+  /* citation for header images:https://www.directferries.com/news/201901/get_up_to_25_off_ferries_to_holland.htm */
+  padding-top: 3em;
+  margin-top: -1em;
+  margin-left: -0.5em;
+  margin-right: -0.5em;
+  padding-bottom: 3em;
+  height: 8em;
+}
+
+
+nav li {
+  display: inline;
+  list-style: none;
+  padding: 1em;
+
+}
+
+li a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+nav {
+
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-right: 4em;
+}
+
+
+body {
+  background-color: rgb(240, 240, 240);
+}
+
+.flex-wrap li {
+  list-style-type: none;
+  display: flex;
+  padding: 1.5em;
+}
+
+
+.image-insert {
+  padding-top: 2em;
+}
+
+.title {
+  text-align: center;
+
+  padding: .3em;
+  font-size: 50px;
+  border-style: double;
+  border-color: white;
+  border-width: 2px;
+}
+
+main {
+  display: block;
+  margin: 0 auto;
+}
+
+.title-container {
+  background-color: #2A2829;
+  width: fit-content;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.imageresize {
+  width: 273px;
+  height: 185px;
+  display: block;
+  margin: 0 auto;
+}
+
+.imageresizedetails {
+  width: 30%;
+  height: 40%;
+  display: block;
+  margin: 0 auto;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.flex-row {
+  padding-top: 2em;
+
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: center;
+  grid-area: 1 / 1;
+
+  align-items: center;
+
+}
+
+.margin-top {
+  margin-top: 1em;
+}
+
+.flex-row-left {
+  display: flex;
+  flex-direction: row;
+  margin-left: 3em;
+  margin-top: .5em;
+}
+
+h4,
+h5 {
+  text-align: center;
+  margin: 0.1em !important;
+}
+
+.flex-wrap {
+
+  display: flex;
+  flex-direction: row;
+
+}
+
+.label {
+  margin-bottom: 18px;
+  margin-left: 2em;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  display: block;
+  padding-top: 2em;
+
+}
+
+.image-form .label-inputr {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.label-input {
+  margin-bottom: .7em;
+}
+
+.image-form label {
+  font-weight: bold;
+  font-size: large;
+}
+
+.align-right {
+  display: flex;
+  margin-left: 15em;
+  margin-top: .5em;
+
+}
+
+
+section {
+  margin-left: 5em;
+}
+
+.margin-0 {
+  display: block;
+  max-width: 50em;
+  text-align: left;
+}
+
+.left-space {
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
+.form-filter {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5em;
+}
+
+.left {
+  margin-left: 0.5em;
+}
+
+.login-insert {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left !important;
+
+}
+
+footer {
+  font-size: small;
+  text-align: center;
+}
+
+footer a {
+  color: black;
+}
+
+
+@media screen and (min-width: 1000px) {
+  .flex-row {
+    padding-top: 2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-area: 1 / 1;
+    max-width: 1100px;
+    align-items: center;
+    margin-left: 8em;
+
+  }
+
+
+}
